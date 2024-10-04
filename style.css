@@ -1,0 +1,71 @@
+:root{
+--text: #022B3A;
+--background: #FFFFFF;
+--primary: #BFDBF7;
+--secondary: #E1E5F2;
+--accent: #1F7A8C;
+--hoverText: #3e455e;
+--standartFontSize: 1.066rem;
+}
+@import url('https://fonts.googleapis.com/css?family=Inter:700|Montserrat:400');
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Inter';
+    font-weight: 700; 
+}
+
+html {font-size: 100%;} /* 16px */
+
+h1 {font-size: 3.366rem; /* 53.92px */}
+
+h2 {font-size: 2.525rem; /* 40.32px */}
+
+h3 {font-size: 1.894rem; /* 30.24px */}
+
+h4 {font-size: 1.421rem; /* 22.72px */}
+
+h5 {font-size: 1.066rem; /* 17.12px */}
+
+small {font-size: 0.600rem; /* 9.6px */}
+
+
+body{
+    background-color: var(--background);
+    font-family: 'Montserrat';
+    font-weight: 600;
+}
+
+header{
+    background-color: var(--primary);
+    border-radius: 20px;
+    
+}
+#navUl{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+nav li{
+    list-style: none;
+    color: var(--text);
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    
+}
+.navBtns{
+    background-color: var(--primary);
+    color: var(--text);
+    border: none ;
+    font-size: var(--standartFontSize);
+    border-radius: 20px;
+    padding: 5px;
+    
+}
+.navBtns:hover{
+    color:var(--hoverText);
+    background-color: var(--secondary);
+    cursor: pointer;
+}
+
+
